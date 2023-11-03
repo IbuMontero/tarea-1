@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea formulario</title>
+</head>
+<body>
+    <form>
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" autofocus required>
+        <br>
+        <label for="Contraseña">Contraseña</label>
+        <input type="text" name="Contraseña" id="Contraseña" required>
+        <br>
+        <label for="Correo electrónico">Correo electrónico</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="url">URL</label>
+        <input type="url" name="Url" id="Url" placeholder="Url de tu Página">
+        <br>
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="Fecha" id="Fecha">
+        <br>
+        <label for="Tiempo">Tiempo</label>
+        <input type="time" name="Tiempo" id="Tiempo">
+        <br>
+        <label for="Numero">Número (min -10, max 10)</label>
+        <input type="number" min="-10" max="10">
+        <br>
+        <label for="Tlf">Teléfono</label>
+        <input type="number" name="Tlf" id="Tlf">
+        <br>
+        <label for="TermBus">Término de busqueda</label>
+        <input type="text" name="TermBus" id="TermBus">
+        <br>
+        <label for="ColorFav">Color Favorito</label>
+        <input type="color" name="ColorFav" id="ColorFav">
+        <br>
+        <label for="SO">Sitema operativo</label>
+        <select name="SO" id="SO">
+            <option value="Windows">Windows</option>
+            <option value="Linux">Linux</option>
+        </select>
+        <br>
+        <label for="checkbox">¿Que lenguaje de programacion web conoces?</label>
+        <input type="checkbox" name="checkbox" id="checkbox">html5
+        <input type="checkbox" name="checkbox" id="checkbox">Css3
+        <input type="checkbox" name="checkbox" id="checkbox">JavaScript
+        <input type="checkbox" name="checkbox" id="checkbox">Php
+        <input type="checkbox" name="checkbox" id="checkbox">Python
+        <br>
+        <label for="radio">¿Sabes utilizar Python?</label>
+        <input type="radio" name="radio" id="radio">SI
+        <input type="radio" name="radio" id="radio">NO
+        <br>
+        <label for="comentarios">Comentarios</label>
+        <textarea name="Comentarios" id="Comentarios" cols="40" rows="6"></textarea>
+        <br><br><br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
